@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>Asistente de dos pasos</title>
+    <link rel="stylesheet" href="../css/stylesAsistente.css">
+
+    
+
+
+    </head>
+
+<body>
+
+
+    <h1 id="asistente">Asistente de dos pasos</h1>
+
+    
+    <!-- formulario sin css -->
+
+        <form class="form1" id="step-1">
+
+    
+            <input class="input" type="text" id="name" name="name" placeholder="Nombre" required>
+            <br><br>
+    
+    
+            <input class="input" type="email" id="email" name="email" placeholder="Correo Electronico" required>
+            <br><br>
+
+    
+            <input class="input" type="text" id="telefono" name="telefono" placeholder="1132124532" required>
+            <br><br>
+    
+            <button class="siguiente" type="button" id="next-btn">Siguiente</button>
+
+        </form> 
+
+
+
+
+
+
+            <form class="form2" id="step-2">
+
+        <div id="resumen">
+
+            <h1>RECLAMO</h1>
+            <h3>Resumen:</h3>
+            <div id="summary"></div>
+
+        </div>
+
+
+
+        <div class="botones">
+
+            <button class="boton1" type="button" id="back-btn">Volver</button>
+
+            <button class="boton2" type="button" id="send-btn"> Enviar </button> <br> <br>
+        
+            <button class="boton3" onclick="imprimirPagina();">Imprimir</button>
+        
+            <button class="boton4" type="button" id="pdf-btn">PDF</button>
+        </div>
+
+
+    </form>
+
+
+    
+    <script src="../js/scriptAsistente.js"></script>
+
+    <!-- script del boton imprimir -->
+
+    <script>
+        function imprimirPagina() {
+            var botones = document.querySelector('.botones');
+            botones.style.display = "none";
+        
+            window.print();
+            }
+    </script> 
+
+
+
+    <!-- LIBRERIA html2pdf.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
+</body>
+</html>
