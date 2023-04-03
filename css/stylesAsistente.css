@@ -112,3 +112,59 @@ body {
   color: white;
   /* margin: 16px; */
 }
+
+
+
+
+
+
+
+
+
+
+.logo-image {
+  width: 125px;
+  height: 200px;
+  position: relative;
+  left:30px;
+  top: 10px;
+}
+
+
+h1{
+  position: absolute;
+  top: 150px;
+  left: 200px;
+  font-size: 80px;
+
+  
+}.menu {
+    
+  display:flex;
+  margin: -50px;
+  padding-left: 50px;
+  /* border: solid 2px red; */
+  align-items: center;
+ /*  justify-content:center; */
+}
+
+.menu li {
+
+display:inline-block ;
+/* border: solid 2px green; */
+}
+
+
+.menu li a {
+  
+  text-decoration: none;
+  padding: 15px;
+  color: black;
+  font-family: monospace;
+  background-color: #CB836D;
+}
+
+.menu li :hover {
+  color: white;
+}
+
