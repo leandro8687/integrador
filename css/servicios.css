@@ -5,3 +5,51 @@ h1 {
     text-align: center;
     color: black;
 }
+
+.logo-image {
+    width: 125px;
+    height: 200px;
+    position: relative;
+    left:30px;
+    top: 10px;
+}
+
+
+.menu li {
+
+display:inline-block ;
+ /* border: solid 2px green; */
+ }
+    
+    
+.menu li a {
+        
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+    font-family: monospace;
+    background-color: #CB836D;
+}
+    
+.menu li :hover {
+     color: white;
+    }
+    
+main {
+     /* border: solid 4px black; */
+     height: 600px;
+}
+    
+section {
+    display: inline-flex;
+        
+}
+.menu {
+    
+    display:flex;
+    margin: -50px;
+    padding-left: 50px;
+    /* border: solid 2px red; */
+    align-items: center;
+   /*  justify-content:center; */
+}

@@ -1,4 +1,4 @@
-/* Por favor revisar si se estan guardando los datos Rube 4/4 00:22hs*/
+
 body {
     margin: auto;
     padding: auto;
@@ -36,8 +36,8 @@ h3{
         width: 230px;
         height: 60px;
         left: 200px;
-        top: 420px;
-        background: #CB836D;
+        top: 560px;
+        background: #EECEC3;
         border-radius: 5px;
         color: white;
         border-style: none;
