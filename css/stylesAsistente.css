@@ -91,6 +91,11 @@ body {
   color: black;
   font-size: 30px;
   box-shadow: 7px 13px 37px #000;
+  /* Nuevas propiedades CSS para centrar */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-30%, -80%);
 
 
 }
