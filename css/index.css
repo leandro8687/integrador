@@ -105,7 +105,7 @@ display:inline-block ;
 
 main {
     /* border: solid 4px black; */
-    height: 2000px;
+    height: 3500px;
 }
 
 section {
@@ -115,13 +115,23 @@ section {
 
 h2 {
     
-    font-size: 35px;
-    padding: 30px;
-    left: 700px;
-    margin-bottom: 50px;
-    text-align: center;
-    font-family:monospace;
-    font-style: italic;
+   
+position: relative;
+width: 394px;
+height: 76px;
+left: 430px;
+top: 10px;
+
+font-family: 'Abhaya Libre';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 76px;
+
+
+text-align: center;
+
+color: #112734;
 }
 
 
@@ -222,7 +232,7 @@ p {
     width: 1140px;
     height: 64px;
     left: 70px;
-    top: 1550px;
+    top: 1600px;
 
     font-family: 'Crimson Text';
     font-style: normal;
@@ -230,7 +240,7 @@ p {
     font-size: 64px;
     line-height: 64px;
     text-align: center;
-    color: #112734;
+    color: #112734;;
 }
 
 .img11 {
@@ -242,5 +252,247 @@ p {
     
     background: url(.jpg), #C4C4C4;
     border-radius: 30px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+
+}
+
+.parrafo1 {
+    position: absolute;
+    width: 532px;
+    height: 75px;
+    left: 600px;
+    top: 1750px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.08em;
+    color: #A6525B;
+
+
+}
+
+.card2{
+    position: absolute;
+    left: 600px;
+    top: 1900px;
+    width: 554px;
+    height: 459px;
+    background: #FFFFFF;
+    border-radius: 15px 15px 15px 0px;
+
+}
+
+.img-1 {
+    position: absolute;
+    height: 297px;
+    width: 555px;
+    left: -15px;
+    top: -24px;
+    border-radius: 15px;
+    
+   
+}
+
+.img-2 {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    left: -5px;
+    top: 290px;
+}
+
+.texto2 {
+    position: absolute;
+left: 11.55%;
+right: 48.92%;
+top: 270px;
+bottom: 25.05%;
+
+font-family: 'Abhaya Libre';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+
+color: #112734;
+}
+
+.parrafo2 {
+    position: absolute;
+left: 2.17%;
+right: 32.67%;
+top: 76.69%;
+bottom: 18.52%;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: rgba(17, 39, 52, 0.7);
+}
+
+.img-3 {
+    position: absolute;
+left: -5px;
+right: 32.67%;
+top: 390px;
+bottom: 18.52%;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: rgba(17, 39, 52, 0.7);
+}
+
+.texto3 {
+    position: absolute;
+left: 13%;
+right: 65.52%;
+top: 88%;
+bottom: 5.01%;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+
+color: rgba(17, 39, 52, 0.7);
+}
+
+.texto4 {
+    position: absolute;
+left: 85.38%;
+right: 3.25%;
+top: 64%;
+bottom: 28.54%;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+
+color: rgba(17, 39, 52, 0.7);
+}
+
+.img-4 {
+    position: absolute;
+    left: 420px;
+    
+    top: 390px;
+    bottom: 3.49%;
+    /* background: #CB836D; */
+
+}
+
+.texto-5 {
+
+    position: absolute;
+    left: 480px;
+    
+    top: 86%;
+    
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: rgba(17, 39, 52, 0.7);
+    }
+
+    .video1 {
+        position: absolute;
+        top: 600px;
+        right:600px; 
+        width: 350px;
+        height: 500px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        
+        
+    }
+    .texto6 {
+
+        position: absolute;
+        left: 100px;
+        top:550px;
+        font-family: 'Crimson Text';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 64px;
+        text-align: center;
+        color: #A6525B;
+        
+        
+
+
+}
+
+.lista1 {
+
+    
+    position: absolute;
+    top:620px;
+    left: 100px;
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 42px;
+    color: #112734;
+
+    
+    
+}
+
+.texto7 {
+position: absolute;
+width: 1136px;
+height: 76px;
+left: -500px;
+top: 1180px;
+font-family: 'Abhaya Libre';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 76px;
+text-align: center;
+color: #000000;
+}
+
+.img-5 {
+    position: absolute;
+width: 555px;
+height: 354px;
+left: -580px;
+top: 1400px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+}
+
+
+.img-6 {
+    position: absolute;
+width: 555px;
+height: 354px;
+left: 20px;
+top: 1400px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 
 }
