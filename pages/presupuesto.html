@@ -29,6 +29,7 @@
                         <li><a href="./Quienes somos.html">QUIENES SOMOS</a></li>
                         <li><a href="./presupuesto.html">PRESUPUESTO</a></li>
                         <li><a href="./contactos.html">CONTACTO</a></li>
+                        <li><a href="./Login.html">LOGIN</a></li>
 
 
                     </ul> 
@@ -39,8 +40,11 @@
             
     </header>
 
-
-    <h1 id="asistente">Presupuesto</h1>
+    <div class="titulo-formulario">
+    <div class="titulo">
+        <h1>Presupuesto</h1>
+        <h2>Solicita el presupuesto y te responderemos a la brevedad</h2>
+    </div>
 
     
     <!-- formulario sin css -->
@@ -58,11 +62,20 @@
     
             <input class="input" type="text" id="telefono" name="telefono" placeholder="1132124532" required>
             <br><br>
+
+            <select class="input" id="servicio" name="servicio" required>
+                <option value="" disabled selected>Elige un Servicio</option>
+                <option value="servicio1">Servicio 1</option>
+                <option value="servicio2">Servicio 2</option>
+                <option value="servicio3">Servicio 3</option>
+                <option value="servicio4">Servicio 4</option>
+            </select>
+            
     
             <button class="siguiente" type="button" id="next-btn">Siguiente</button>
 
         </form> 
-
+    </div>
 
 
 
@@ -70,11 +83,12 @@
 
             <form class="form2" id="step-2">
 
-        <div id="resumen">
+        <div class="resumen" id="resumen">
 
-            <h1>RECLAMO</h1>
-            <h3>Resumen:</h3>
+            <h3>Solicitud de presupuesto:</h3>
             <div id="summary"></div>
+
+            
 
         </div>
 
@@ -82,13 +96,17 @@
 
         <div class="botones">
 
-            <button class="boton1" type="button" id="back-btn">Volver</button>
-
-            <button class="boton2" type="button" id="send-btn"> Enviar </button> <br> <br>
+            <div class="botones1">
+                <button class="boton1" type="button" id="back-btn">Volver</button>
+                
+                <button class="boton2" type="button" id="send-btn"> Enviar </button> 
+            </div>
         
-            <button class="boton3" onclick="imprimirPagina();">Imprimir</button>
-        
-            <button class="boton4" type="button" id="pdf-btn">PDF</button>
+            <div class="botones2">
+                <button class="boton3" onclick="imprimirPagina();">Imprimir</button>
+                
+                <button class="boton4" type="button" id="pdf-btn">Descargar PDF</button>
+            </div>
         </div>
 
 
@@ -101,12 +119,15 @@
     <!-- script del boton imprimir -->
 
     <script>
-        function imprimirPagina() {
+            function imprimirPagina() {
             var botones = document.querySelector('.botones');
+            var nav = document.querySelector('.contenedor');
             botones.style.display = "none";
+            nav.style.display = "none";
         
             window.print();
             }
+
     </script> 
 
 

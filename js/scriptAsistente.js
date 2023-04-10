@@ -13,7 +13,7 @@ const summary = document.querySelector("#summary");
 nextBtn.addEventListener("click", function() {
 
 
-  if (!document.getElementById("name").value || !document.getElementById("email").value || !document.getElementById("telefono").value) {
+  if (!document.getElementById("name").value || !document.getElementById("email").value || !document.getElementById("telefono").value || !document.getElementById("servicio").value) {
     alert("Por favor complete todos los campos obligatorios.");
   } else {
   
@@ -21,13 +21,16 @@ nextBtn.addEventListener("click", function() {
   let name = document.querySelector("#name").value;
   let email = document.querySelector("#email").value;
   let telefono = document.querySelector("#telefono").value;
+  let servicio = document.querySelector("#servicio").value;
 
 
   
   // mostrar resumen en el segundo paso
   summary.innerHTML =`Nombre: ${name}<br>
                       Email: ${email}<br>
-                      Telefono: ${telefono} `;
+                      Telefono: ${telefono} <br>
+                      Servicio: ${servicio}
+                      `;
 
                       
   
@@ -66,7 +69,7 @@ pdfBtn.addEventListener("click", function() {
   
   // configurar las opciones de conversión
   const options = {
-    filename: 'Reclamo.pdf',
+    filename: 'Presupuesto-AMBAR.pdf',
     margin: [1, 1, 1, 1],
     image: { type: 'jpeg', quality: 0.98 },
     html2canvas: { scale: 30 },
