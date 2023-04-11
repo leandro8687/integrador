@@ -18,7 +18,7 @@
             "status": "Activo",
             "mail": "Claumarruga@gmail.com",
             "password": "123456",
-            "image": "https://rickandmortyapi.com/api/character/avatar/2.jpeg"
+            "image": "https://rickandmortyapi.com/api/character/avatar/4.jpeg"
         },
         {
             "id": 3,
@@ -34,7 +34,7 @@
             "status": "Activo",
             "mail": "Lean@gmail.com",
             "password": "123456",
-            "image": "https://rickandmortyapi.com/api/character/avatar/4.jpeg"
+            "image": "https://rickandmortyapi.com/api/character/avatar/2.jpeg"
         },
         {
             "id": 5,
