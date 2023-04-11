@@ -115,24 +115,24 @@ section {
 
 h2 {
     
-   
 position: relative;
 width: 394px;
 height: 76px;
 left: 430px;
 top: 10px;
-
+/* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); */
 font-family: 'Abhaya Libre';
 font-style: normal;
 font-weight: 400;
 font-size: 64px;
 line-height: 76px;
-
-
 text-align: center;
 
-color: #112734;
 }
+
+
+
+
 
 
 h4 {
@@ -640,7 +640,8 @@ footer {
 
 }
 
-.texto12    {    position: absolute;
+.texto12    {    
+position: absolute;
 width: 219.86px;
 height: 41.84px;
 left: 100.66px;

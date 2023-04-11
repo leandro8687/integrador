@@ -186,13 +186,16 @@ body {
 
 
 h1{
-  position: relative;
+  position: absolute;
+  left: -55px;
+  top: 250px;
   margin-left: 5%;
   font-size: 80px;
 }
 
 h2{
-  position: relative;
+  position: absolute;
+  left: 410px;
   margin-left: 5%;
 }
 
