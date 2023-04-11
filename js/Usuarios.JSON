@@ -1,0 +1,50 @@
+{
+    "info": {
+        "count": 5,
+        "pages": 1
+    },
+    "results": [
+        {
+            "id": 1,
+            "name": "Fernando Parrelo",
+            "status": "Activo",
+            "mail": "Ferparrelo@gmail.com",
+            "password": "123456",
+            "image": "https://rickandmortyapi.com/api/character/avatar/1.jpeg"
+        },
+        {
+            "id": 2,
+            "name": "Claudia Marruga",
+            "status": "Activo",
+            "mail": "Claumarruga@gmail.com",
+            "password": "123456",
+            "image": "https://rickandmortyapi.com/api/character/avatar/2.jpeg"
+        },
+        {
+            "id": 3,
+            "name": "Natacha Solis",
+            "status": "Activo",
+            "mail": "NatSolis@gmail.com",
+            "password": "123456",
+            "image": "https://rickandmortyapi.com/api/character/avatar/3.jpeg"
+        },
+        {
+            "id": 4,
+            "name": "Leandro Gaitan",
+            "status": "Activo",
+            "mail": "Lean@gmail.com",
+            "password": "123456",
+            "image": "https://rickandmortyapi.com/api/character/avatar/4.jpeg"
+        },
+        {
+            "id": 5,
+            "name": "Ruben Montero",
+            "status": "Activo",
+            "mail": "monteroruben86@gmail.com",
+            "password": "123456",
+            "image": "https://rickandmortyapi.com/api/character/avatar/5.jpeg"
+        }
+       
+        
+    ]
+}
