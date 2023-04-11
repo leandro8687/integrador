@@ -26,6 +26,24 @@ h1 {
     color: black;
 }
 
+.form1{
+    width: 700px;
+    background: #cb836d;
+    opacity: 0.9;
+    padding: 30px;
+    margin: auto;
+    margin-top: 200px;
+    border-radius: 4px;
+    box-shadow: 7px 13px 37px #000;
+    /* Nuevas propiedades CSS para centrar */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%, -80%);
+  
+  
+  }
+
 .logo-image {
     width: 125px;
     height: 200px;
