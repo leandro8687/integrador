@@ -139,13 +139,10 @@ header {
     background-repeat: no-repeat; */
     /* background-position: 305px; */
  
-    height: 1000px;
+    height: 2000px;
     border: solid 2px #EECEC3;
     width: auto;
     margin: auto;
-    
-
-    
 }
 
 
@@ -202,10 +199,10 @@ h1 {
    /*  justify-content:center; */
 }
 
-main  {
+ main  {
     position: absolute;
     top: 150px;
-}
+} 
 
 footer {
     
