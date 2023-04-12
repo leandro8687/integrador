@@ -36,35 +36,32 @@
         <div class="titulo-formulario">
             <div class="titulo">
                 <h1>Contacto</h1>
-                <h2>Por favor loguearse para ingresar al portal Empleados</h2>
             </div>
         
-            
-            <!-- formulario sin css -->
         
-                <form class="form1">
-                    <input class="input" type="email" id="email" name="email" placeholder="arg@prog.com" required>
+         <form id="form2" class="form2">
+                    <label for="Nombre">Nombre</label>
+                    <input class="inputcontacto" type="text" id="nombre1" name="Nombre1"  required>
                     <br><br>
-                    <input class="input" type="email" id="email" name="email" placeholder="arg@prog.com" required>
+                    <label for="apellido">Apellido</label>
+                    <input class="inputcontacto" type="text" id="apellido1" name="apellido1"  required>
                     <br><br>
-                    <input class="input" type="email" id="email" name="email" placeholder="arg@prog.com" required>
+                    <label for="telefono">Telefono</label>
+                    <input class="inputcontacto" type="phone" id="telefono1" name="telefono1"  required>
                     <br><br>
-            
-                    <input class="input" type="email" id="email" name="email" placeholder="arg@prog.com" required>
+                    <label for="email">Email</label>
+                    <input class="inputcontacto" type="email" id="email1" name="email1"  required>
                     <br><br>
-        
-            
-                    <input class="input" type="password" id="Password" name="Password" placeholder="Coloque su contraseña/ Ejemplo 123456" required>
+                    <label for="comentarios">Escribe tus comentarios</label>
+                    <br>
+                    <textarea class="comentarios" type="text" id="comentarios1" name="comentarios1"  required></textarea>
                     <br><br>
-        
-                    
-            
-                    <button onclick="Login()" type="button" class="siguiente">Login</button>
+                    <button onclick="clickform()" type="button" class="siguiente">Solicitar Contacto</button>
         
                 </form> 
             </div>
         
-            <script src="../js/Login.js"></script>
+            <script src="../js/contacto.js"></script>
             <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.all.min.js"></script>
            
         </body>
