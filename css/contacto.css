@@ -15,7 +15,7 @@ header {
     background-repeat: no-repeat; */
     /* background-position: 305px; */
  
-    height: 2000px;
+    height: 1180px;
     border: solid 2px #EECEC3;
     width: auto;
     margin: auto;
@@ -26,25 +26,30 @@ header {
 
 h1 {
     position: absolute;
-    top: 150px;
+    top: 90px;
     left: 500px;
     text-align: center;
-    color: black;
+    font-family: var(--base-font) ;
+    font-size: var(--font-H2);
+    color: var(--tipography-dark);
+    font-size: 80px;
+   
+    
 }
 
-.form1{
+.form2{
     width: 700px;
     background: #cb836d;
     opacity: 0.9;
     padding: 30px;
     margin: auto;
-    margin-top: 200px;
+   /*  margin-top: 200px; */
     border-radius: 4px;
     box-shadow: 7px 13px 37px #000;
     /* Nuevas propiedades CSS para centrar */
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 60%;
+    left: 40%;
     transform: translate(-30%, -80%);
   
   
@@ -117,151 +122,113 @@ h1 {
     }
     
     .texto12    {    position: absolute;
-    width: 219.86px;
-    height: 41.84px;
-    left: 135.66px;
-    top: 2050px;
-    font-family: 'Abhaya Libre';
-    font-style: normal;
-    font-weight: 700;
-    line-height: 57px;
-    color: #FFF9F5;
-    font-size: 48px;
-    
-    
-    }
-    
-    .texto13{
-        position: absolute;
+        width: 219.86px;
+        height: 41.84px;
         left: 135.66px;
-        top: 2150px;
-        font-family: 'Montserrat';
+        top: 1200px;
+        font-family: 'Abhaya Libre';
         font-style: normal;
-        font-weight: 400;
-        font-size: 25px;
-        line-height: 22px;
-        color: rgba(17, 39, 52, 0.7);
-        border-left:solid 1.5px yellow;
+        font-weight: 700;
+        line-height: 57px;
+        color: #FFF9F5;
+        font-size: 48px;
+        
         
         }
-    
-        .texto14 {
-            
-        position: absolute;
-        left: 135.66px;
-        top: 2230px;
-        font-size: 25px;
-        border: none;
-        color: white;
-        }
-    
-        .texto15 {
-            
+        
+        .texto13{
             position: absolute;
             left: 135.66px;
-            top: 2280px;
+            top: 1280px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
             font-size: 25px;
-            border: none;
-            color: white;
-            font-size: medium;
+            line-height: 22px;
+            color: rgba(17, 39, 52, 0.7);
+            border-left:solid 1.5px yellow;
+            
             }
-    
-            .texto16 {
-            
-                position: absolute;
-                left: 470.66px;
-                top: 2500px;
-                font-size: 25px;
-                border: none;
-                color:black;
-                font-size: medium;
-                }
-    
-        .texto17 {
-            
+        
+            .texto14 {
+                
             position: absolute;
-            left: 800.66px;
-            top: 2230px;
+            left: 135.66px;
+            top: 1380px;
             font-size: 25px;
             border: none;
             color: white;
             }
-     
-            .texto18 {
-            
+        
+            .texto15 {
+                
                 position: absolute;
-                left: 800.66px;
-                top: 2280px;
+                left: 135.66px;
+                top: 1430px;
                 font-size: 25px;
                 border: none;
                 color: white;
                 font-size: medium;
                 }
-                .texto19 {
-            
+        
+                .texto16 {
+                
+                    position: absolute;
+                    left: 470.66px;
+                    top: 1670px;
+                    font-size: 25px;
+                    border: none;
+                    color:black;
+                    font-size: medium;
+                    }
+        
+            .texto17 {
+                
+                position: absolute;
+                left: 800.66px;
+                top: 1380px;
+                font-size: 25px;
+                border: none;
+                color: white;
+                }
+         
+                .texto18 {
+                
                     position: absolute;
                     left: 800.66px;
-                    top: 2300px;
+                    top: 1430px;
                     font-size: 25px;
                     border: none;
                     color: white;
-                    
+                    font-size: medium;
                     }
-                    .texto20 {
-            
+                    .texto19 {
+                
                         position: absolute;
                         left: 800.66px;
-                        top: 2350px;
+                        top: 1480px;
                         font-size: 25px;
                         border: none;
                         color: white;
-                        font-size: medium;
+                        
                         }
-    
-    .img-12 {
-        position: absolute;
-            width: 250px;
-            height: 194px;
-            left: 730px;
-            top: 2040px;
-            border-radius: 12px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-    }
-
-.form2{
-    width: 700px;
-    background: #cb836d;
-    opacity: 0.9;
-    padding: 30px;
-    margin: auto;
-    margin-top: 200px;
-    border-radius: 4px;
-    box-shadow: 7px 13px 37px #000;
-    position: absolute;
-    left: 10%;
-    top: 90px;
-}
-
-    .comentarios{
-        height: 100px;
-        width: 400px;
-    }
-
-    .inputcontacto{
-        position: absolute;
-        left: 150px;
-    }
-
-    
-    .titulo-formulario {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin-top: -5%;
-      }
-      
-      .titulo{
-        flex:1;
-        margin-right: 30px;
-      }
-      
+                        .texto20 {
+                
+                            position: absolute;
+                            left: 800.66px;
+                            top: 1530px;
+                            font-size: 25px;
+                            border: none;
+                            color: white;
+                            font-size: medium;
+                            }
+        
+        .img-12 {
+            position: absolute;
+                width: 250px;
+                height: 194px;
+                left: 730px;
+                top: 1200px;
+                border-radius: 12px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+        }

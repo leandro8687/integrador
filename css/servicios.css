@@ -1,8 +1,8 @@
-*{
+/* *{
     margin: 20;
     padding: 20;
     box-sizing: border-box;
-  }
+  } */
   
 :root{
     /* Palette */
@@ -18,7 +18,7 @@
     --alternative-font: 'Montserrat', sans-serif; */
     
     --font-H1: 6.4em;
-    --font-H2: 4.8em;
+    --font-H2: 3.8em;
     --font-H3: 3.6em;
     --font-bodylarge: 2.4em;
     --font-bodymedium: 1.8em;
@@ -139,7 +139,7 @@ header {
     background-repeat: no-repeat; */
     /* background-position: 305px; */
  
-    height: 2000px;
+    height: 1180px;
     border: solid 2px #EECEC3;
     width: auto;
     margin: auto;
@@ -220,7 +220,7 @@ footer {
 width: 219.86px;
 height: 41.84px;
 left: 135.66px;
-top: 2050px;
+top: 1200px;
 font-family: 'Abhaya Libre';
 font-style: normal;
 font-weight: 700;
@@ -234,7 +234,7 @@ font-size: 48px;
 .texto13{
     position: absolute;
     left: 135.66px;
-    top: 2150px;
+    top: 1280px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -249,7 +249,7 @@ font-size: 48px;
         
     position: absolute;
     left: 135.66px;
-    top: 2230px;
+    top: 1380px;
     font-size: 25px;
     border: none;
     color: white;
@@ -259,7 +259,7 @@ font-size: 48px;
         
         position: absolute;
         left: 135.66px;
-        top: 2280px;
+        top: 1430px;
         font-size: 25px;
         border: none;
         color: white;
@@ -270,7 +270,7 @@ font-size: 48px;
         
             position: absolute;
             left: 470.66px;
-            top: 2500px;
+            top: 1670px;
             font-size: 25px;
             border: none;
             color:black;
@@ -281,7 +281,7 @@ font-size: 48px;
         
         position: absolute;
         left: 800.66px;
-        top: 2230px;
+        top: 1380px;
         font-size: 25px;
         border: none;
         color: white;
@@ -291,7 +291,7 @@ font-size: 48px;
         
             position: absolute;
             left: 800.66px;
-            top: 2280px;
+            top: 1430px;
             font-size: 25px;
             border: none;
             color: white;
@@ -301,7 +301,7 @@ font-size: 48px;
         
                 position: absolute;
                 left: 800.66px;
-                top: 2300px;
+                top: 1480px;
                 font-size: 25px;
                 border: none;
                 color: white;
@@ -311,7 +311,7 @@ font-size: 48px;
         
                     position: absolute;
                     left: 800.66px;
-                    top: 2350px;
+                    top: 1530px;
                     font-size: 25px;
                     border: none;
                     color: white;
@@ -323,7 +323,7 @@ font-size: 48px;
         width: 250px;
         height: 194px;
         left: 730px;
-        top: 2040px;
+        top: 1200px;
         border-radius: 12px;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
