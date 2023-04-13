@@ -572,16 +572,145 @@ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     color: #000000;
     }
 
-    .img-10 {
+    .img-claudia {
         position: absolute;
-    width: 580px;
-    height: 454px;
-    left: -280px;
+    width: 250px;
+    height: 254px;
+    left: -590px;
     top: 2650px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2px 4px rgba(0, 15, 0, 0.5);
    /*  border:solid 1px pink ; */
-    border-radius: 12px;
-    border-radius: 12px;
+    border-radius: 50%;
+    
+}
+
+.claudia {
+    position: absolute;
+    left: -540px;
+    top: 2930px;
+    font-family: monospace;
+    font-size: large;
+
+}
+
+.img-claudia:hover {
+
+    background: #4b4b4b;
+    transform: scale(1.1);
+    
+
+}
+
+.img-ruben {
+    position: absolute;
+width: 250px;
+height: 254px;
+left: -330px;
+top: 2650px;
+box-shadow: 0 2px 4px rgba(0, 15, 0, 0.5);
+/*  border:solid 1px pink ; */
+border-radius: 50%;
+
+}
+
+.ruben {
+    position: absolute;
+    left: -310px;
+    top: 2930px;
+    font-family: monospace;
+    font-size: large;
+}
+
+
+
+
+.img-ruben:hover {
+
+    background: #4b4b4b;
+    transform: scale(1.1);
+    
+
+}
+
+.img-natacha {
+    position: absolute;
+width: 250px;
+height: 254px;
+left: -70px;
+top: 2650px;
+box-shadow: 0 2px 4px rgba(0, 15, 0, 0.5);
+/*  border:solid 1px pink ; */
+border-radius: 50%;
+
+}
+.img-natacha:hover {
+
+    background: #4b4b4b;
+    transform: scale(1.1);
+    
+
+}
+
+.natacha {
+    position: absolute;
+    left: 1px;
+    top: 2930px;
+    font-family: monospace;
+    font-size: large;
+}
+
+
+.img-leandro {
+    position: absolute;
+width: 250px;
+height: 254px;
+left: 190px;
+top: 2650px;
+box-shadow: 0 2px 4px rgba(0, 15, 0, 0.5);
+/*  border:solid 1px pink ; */
+border-radius: 50%;
+
+}
+.img-leandro:hover {
+
+    background: #4b4b4b;
+    transform: scale(1.1);
+    
+
+}
+.leandro {
+    position: absolute;
+    left: 210px;
+    top: 2930px;
+    font-family: monospace;
+    font-size: large;
+}
+
+.img-fernando {
+    position: absolute;
+width: 250px;
+height: 254px;
+left: 445px;
+top: 2650px;
+box-shadow: 0 2px 4px rgba(0, 15, 0, 0.5);
+/*  border:solid 1px pink ; */
+border-radius: 50%;
+
+}
+
+.img-fernando:hover {
+
+    background: #4b4b4b;
+    transform: scale(1.1);
+    
+
+}
+.fernando {
+    position: absolute;
+    left: 520px;
+    top: 2930px;
+    font-family: monospace;
+    font-size: large;
 }
 
 .texto10 {
