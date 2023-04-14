@@ -587,6 +587,10 @@ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     text-align: center;
     color: #000000;
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Rube
     .subtitulo{
         font-family: 'Montserrat';
         font-style: normal;
@@ -595,10 +599,32 @@ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
         left: 15%;
         font-weight: 400;
         font-size: 25px;
+<<<<<<< HEAD
         color: rgba(17, 39, 52, 0.7);
         border-left:solid 1.5px yellow;
       
       }
+=======
+        color: rgba(11, 25, 33, 0.7);
+        border-left:solid 1.5px yellow;
+        text-align: left;
+      
+      }
+      .subtitulo1{
+        font-family: 'Montserrat';
+        font-style: normal;
+        position: absolute;
+        top: 50%;
+        left: 15%;
+        font-weight: 400;
+        font-size: 25px;
+        color: rgba(11, 25, 33, 0.7);
+        border-left:solid 1.5px yellow;
+        text-align: left;
+      
+      }
+
+>>>>>>> Rube
     .img-claudia {
         position: absolute;
     width: 250px;
@@ -649,7 +675,6 @@ border-radius: 50%;
     font-size: large;
     text-align: center;
 }
-
 
 
 
