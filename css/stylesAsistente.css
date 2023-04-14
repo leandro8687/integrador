@@ -11,12 +11,6 @@ body {
   
 }
 
-.body img{
-
-
-
-}
-
 #step-2 {
   display: none;
 }
@@ -38,8 +32,8 @@ body {
   box-shadow: 7px 13px 37px #000;
   /* Nuevas propiedades CSS para centrar */
   position: absolute;
-  top: 60%;
-  left: 50%;
+  top: 300px;
+  left: 260px;
   transform: translate(-30%, -80%);
 
 
@@ -93,8 +87,8 @@ body {
   box-shadow: 7px 13px 37px #000;
   /* Nuevas propiedades CSS para centrar */
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 300px;
+  left: 260px;
   transform: translate(-30%, -80%);
 
 
@@ -152,15 +146,12 @@ body {
   /* margin: 16px; */
 }
 
-
-
-
-
-
-
-
-
-
+.contenedor1{
+  position: absolute;
+  top: 10px;
+  margin-top: 2%;
+  margin-left: 2%;
+}
 .logo-image {
   width: 125px;
   height: 200px;
@@ -177,29 +168,10 @@ body {
   margin-top: -5%;
 }
 
-.titulo{
-  flex:1;
-  margin-right: 30px;
-}
-
-
-
-
-h1{
-  position: absolute;
-  left: -55px;
-  top: 250px;
-  margin-left: 5%;
-  font-size: 80px;
-}
-
-h2{
-  position: absolute;
-  left: 410px;
-  margin-left: 5%;
-}
 
 .contenedor{
+  position: absolute;
+  top: -10px;
   margin-top: 2%;
   margin-left: 2%;
 }
@@ -207,7 +179,7 @@ h2{
 .menu {
     
   display:flex;
-  margin: -50px;
+  margin: -30px;
   padding-left: 50px;
   /* border: solid 2px red; */
   align-items: center;
@@ -234,3 +206,191 @@ display:inline-block ;
   color: white;
 }
 
+main  {
+  position: absolute;
+  top: 200px;
+  height: 200px;
+  width: 1200px;
+} 
+
+
+.titulo-formulario {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -5%;
+  height: 200px;
+  width: 1200px;
+  flex:1;
+  margin-right: 30px;
+  position: absolute;
+}
+
+.titulo{
+  font-family: 'Abhaya Libre';
+  font-style: normal;
+  font-weight: 700;
+  line-height: 57px;
+  font-size: 48px;
+  border-left:solid 1.5px yellow;
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  color: black;
+  height: 200px;
+  width: 1200px;
+}
+
+.subtitulo{
+  font-family: 'Montserrat';
+  font-style: normal;
+  position: absolute;
+  top: 55%;
+  left: 5%;
+  font-weight: 400;
+  font-size: 25px;
+  color: rgba(17, 39, 52, 0.7);
+  border-left:solid 1.5px yellow;
+
+}
+
+.container {
+  position: absolute;
+  top: 100px;
+  height: 509px;
+  max-width: 1240px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-height: 1000px;
+}
+
+.slider{
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-36);
+  max-height: 800px;
+}
+
+footer {
+  position: absolute;
+  top:870px;
+  width: 1100px;
+  height: 530px;
+  background: #CB836D;
+  overflow-x: hidden;
+  
+
+}
+
+.texto12    {    position: absolute;
+width: 219.86px;
+height: 41.84px;
+left: 135.66px;
+top: 30px;
+font-family: 'Abhaya Libre';
+font-style: normal;
+font-weight: 700;
+line-height: 57px;
+color: #FFF9F5;
+font-size: 48px;
+
+
+}
+
+.texto13{
+  position: absolute;
+  left: 135.66px;
+  top: 100px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 22px;
+  color: rgba(17, 39, 52, 0.7);
+  border-left:solid 1.5px yellow;
+  
+  }
+
+  .texto14 {
+      
+  position: absolute;
+  left: 135.66px;
+  top: 180px;
+  font-size: 25px;
+  border: none;
+  color: white;
+  }
+
+  .texto15 {
+      
+      position: absolute;
+      left: 135.66px;
+      top: 230px;
+      font-size: 25px;
+      border: none;
+      color: white;
+      font-size: medium;
+      }
+
+      .texto16 {
+      
+          position: absolute;
+          left: 470.66px;
+          top: 450px;
+          font-size: 25px;
+          border: none;
+          color:black;
+          font-size: medium;
+          }
+
+  .texto17 {
+      
+      position: absolute;
+      left: 800.66px;
+      top: 180px;
+      font-size: 25px;
+      border: none;
+      color: white;
+      }
+
+      .texto18 {
+      
+          position: absolute;
+          left: 800.66px;
+          top: 230px;
+          font-size: 25px;
+          border: none;
+          color: white;
+          font-size: medium;
+          }
+          .texto19 {
+      
+              position: absolute;
+              left: 800.66px;
+              top: 250px;
+              font-size: 25px;
+              border: none;
+              color: white;
+              
+              }
+              .texto20 {
+      
+                  position: absolute;
+                  left: 800.66px;
+                  top: 300px;
+                  font-size: 25px;
+                  border: none;
+                  color: white;
+                  font-size: medium;
+                  }
+
+.img-12 {
+  position: absolute;
+      width: 250px;
+      height: 194px;
+      left: 730px;
+      top: 10px;
+      border-radius: 12px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}

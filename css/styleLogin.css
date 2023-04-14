@@ -32,8 +32,8 @@ body {
   box-shadow: 7px 13px 37px #000;
   /* Nuevas propiedades CSS para centrar */
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 200px;
+  left: 260px;
   transform: translate(-30%, -80%);
 
 
@@ -157,33 +157,82 @@ body {
 }
 
 
+main  {
+  position: absolute;
+  top: 200px;
+  height: 200px;
+  width: 1200px;
+} 
+
+
 .titulo-formulario {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: -5%;
+  height: 200px;
+  width: 1200px;
+  flex:1;
+  margin-right: 30px;
+  position: absolute;
 }
 
 .titulo{
-  flex:1;
-  margin-right: 30px;
+  font-family: 'Abhaya Libre';
+  font-style: normal;
+  font-weight: 700;
+  line-height: 57px;
+  font-size: 48px;
+  border-left:solid 1.5px yellow;
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  color: black;
+  height: 200px;
+  width: 1200px;
 }
 
+.subtitulo{
+  font-family: 'Montserrat';
+  font-style: normal;
+  position: absolute;
+  top: 55%;
+  left: 5%;
+  font-weight: 400;
+  font-size: 25px;
+  color: rgba(17, 39, 52, 0.7);
+  border-left:solid 1.5px yellow;
 
-
-
-h1{
-  position: relative;
-  margin-left: 5%;
-  font-size: 80px;
 }
 
-h2{
-  position: relative;
-  margin-left: 5%;
+.subtitulo2{
+  font-family: 'Montserrat';
+  font-style: normal;
+  position: absolute;
+  top: 70%;
+  left: 5%;
+  font-weight: 400;
+  font-size: 25px;
+  color: rgba(17, 39, 52, 0.7);
+  border-left:solid 1.5px yellow;
+
 }
+nav{
+  padding-top: 20px;
+height: 220px;
+
+}
+.contenedorAdmin{
+  position: absolute;
+  top: 30px;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
 
 .contenedor{
+  position: absolute;
+  top: 10px;
   margin-top: 2%;
   margin-left: 2%;
 }
@@ -191,32 +240,62 @@ h2{
 .menu {
     
   display:flex;
-  margin: -50px;
+  margin: -30px;
+  padding-left: 50px;
+  /* border: solid 2px red; */
+  align-items: center;
+ /*  justify-content:center; */
+}
+.menu li {
+
+  display:inline-block ;
+  /* border: solid 2px green; */
+  }
+  
+  
+  .menu li a {
+    
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+    font-family: monospace;
+    background-color: #CB836D;
+  }
+  
+  .menu li :hover {
+    color: white;
+  }
+  
+.menuadm {
+    
+  display:flex;
+  margin: -10px;
   padding-left: 50px;
   /* border: solid 2px red; */
   align-items: center;
  /*  justify-content:center; */
 }
 
-.menu li {
+.menuadm li {
 
-display:inline-block ;
-/* border: solid 2px green; */
-}
-
-
-.menu li a {
+  display:inline-block ;
+  /* border: solid 2px green; */
+  }
   
-  text-decoration: none;
-  padding: 15px;
-  color: black;
-  font-family: monospace;
-  background-color: #CB836D;
-}
-
-.menu li :hover {
-  color: white;
-}
+  
+  .menuadm li a {
+    
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+    font-size: medium;
+    font-family: monospace;
+    background-color: #CB836D;
+  }
+  
+  .menuadm li :hover {
+    color: white;
+  }
 
 .table-container {
   /* width: 700px; */
@@ -229,7 +308,6 @@ display:inline-block ;
   box-shadow: 7px 13px 37px #000;
   /* Nuevas propiedades CSS para centrar */
   position: absolute;
-  top: 700px;
   left: 310px;
   transform: translate(-30%, -80%);
 }
@@ -264,8 +342,8 @@ text-align-last: center;
 width: 900px;
 height: 375px;
 position: absolute;
-top: 300px;
-left: 100px;
+top: 160px;
+left: 50px;
 box-shadow: 7px 13px 37px #000;
 
 }

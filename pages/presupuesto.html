@@ -4,11 +4,15 @@
     <head>
     <meta charset="utf-8">
     <title>Presupuesto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/stylesAsistente.css">
 
-
-    
-    </head>
+</head>
 
 
 <body>
@@ -18,7 +22,7 @@
 
     
         <nav>          
-            <div class="contenedor">
+            <div class="contenedor1">
                 <div class="menu">
                     <img src="../images/logo.png" alt="logo" class="logo-image">
                     
@@ -38,14 +42,13 @@
         </nav>
             
     </header>
-
+    <main>
     <div class="titulo-formulario">
-    <div class="titulo">
-        <h1>Presupuesto</h1>
-        <h2>Solicita el presupuesto y te responderemos a la brevedad</h2>
+        <h1 class="titulo">Presupuesto</h1>
+        <h2 class="subtitulo">Solicita el presupuesto y te responderemos a la brevedad</h2>
     </div>
 
-    
+    <section class="slider container">
     <!-- formulario sin css -->
 
         <form class="form1" id="step-1">
@@ -55,7 +58,7 @@
             <br><br>
     
     
-            <input class="input" type="email" id="email" name="email" placeholder="Correo Electronico" required>
+            <input class="input" type="email" id="email" name="email" placeholder="Correo Electronico" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
             <br><br>
 
     
@@ -64,17 +67,17 @@
 
             <select class="input" id="servicio" name="servicio" required>
                 <option value="" disabled selected>Elige un Servicio</option>
-                <option value="servicio1">Pilates</option>
-                <option value="servicio2">Yoga</option>
-                <option value="servicio3">Estética</option>
-                <option value="servicio4">Tratamientos</option>
+                <option value="Pilates">Pilates</option>
+                <option value="Yoga">Yoga</option>
+                <option value="Estética">Estética</option>
+                <option value="Tratamientos">Tratamientos</option>
             </select>
             
     
             <button class="siguiente" type="button" id="next-btn">Siguiente</button>
 
         </form> 
-    </div>
+            </div>
 
 
 
@@ -109,9 +112,33 @@
         </div>
 
 
-    </form>
+        </form>
+    </section>
+    </main>
+    <footer>
+        <div class="footer">
+            
+            <img src="../images/ambar1.png" class="img-12" alt="ambaryoga">
+            <h2 class="texto12">Ámbar</h2>
+            <p class="texto13">Pilates, Yoga y Estética</p>
+            <h3 class="texto14">Direccion:</h3>
+            <p class="texto15">Ciudad Autonoma De Buenos Aires <br><br> Villa del Parque
+                1250</p>
+
+            <p class="texto16">Copyrights © 2023 All Rights Reserved by AMBAR sa.</p>   
+            
+            <h3 class="texto17">Teléfono:</h3>
+            <p class="texto18">(011) - 123456789</p>
+            <h3 class="texto19">Email:</h3>
+            <p class="texto20">Ambar@gmail.com</p>
+                    
+                
 
 
+
+        </div>
+
+    </footer>
     
     <script src="../js/scriptAsistente.js"></script>
 
@@ -128,13 +155,11 @@
             }
 
     </script> 
-
-
-
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script> 
     <!-- LIBRERIA html2pdf.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 
-
+    
 </body>
 </html>

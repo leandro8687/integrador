@@ -51,7 +51,7 @@ nextBtn.addEventListener("click", function() {
 //codigo boton volver
 
 backBtn.addEventListener("click", function() {
-  window.history.back();
+  window.location.href='./presupuesto.html';
 
   step1.style.display = "block";
   step2.style.display = "none";

@@ -20,13 +20,6 @@ header {
     width: auto;
     margin: auto;
 }
-h1 {
-    position: absolute;
-    top: 150px;
-    left: 500px;
-    text-align: center;
-    color: black;
-}
 
 
 .logo-image {
@@ -74,10 +67,7 @@ h1 {
    /*  justify-content:center; */
 }
 
-main{
-    position: absolute;
-    top: 150px;  
-}
+
 
 footer {
     bottom:500px;
