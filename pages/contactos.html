@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/contacto.css">
     <title>Ambar</title>
 
@@ -23,7 +29,6 @@
                             <li><a href="./servicios.html">SERVICIOS</a></li>
                             <li><a href="./Quienes somos.html">QUIENES SOMOS</a></li>
                             <li><a href="./presupuesto.html">PRESUPUESTO</a></li>
-                            <li><a href="./contactos.html">CONTACTO</a></li>
                             <li><a href="./Login.html">LOGIN</a></li>
 
 
@@ -33,28 +38,29 @@
                 </div>    
             </nav>
         </header>
+        <main>
         <div class="titulo-formulario">
-            <div class="titulo">
-                <h1>Contacto</h1>
-            </div>
+            <h1 class="titulo">Contacto </h1>
+            <h2 class="subtitulo">Dejenos sus consultas, responderemos a la brevedad</h2>
+    </div>
         
         
-         <form id="form2" class="form2">
-                    <label for="Nombre">Nombre</label>
-                    <input class="inputcontacto" type="text" id="nombre1" name="Nombre1"  required>
+         <form id="form2" class="form1">
+                   <!--  <label for="Nombre">Nombre</label> -->
+                    <input class="input" type="text" id="nombre1" name="Nombre1" placeholder="Nombres" required>
                     <br><br>
-                    <label for="apellido">Apellido</label>
-                    <input class="inputcontacto" type="text" id="apellido1" name="apellido1"  required>
+                    <!-- <label for="apellido">Apellido</label> -->
+                    <input class="input" type="text" id="apellido1" name="apellido1" placeholder="Apellido" required>
                     <br><br>
-                    <label for="telefono">Telefono</label>
-                    <input class="inputcontacto" type="phone" id="telefono1" name="telefono1"  required>
+                    <!-- <label for="telefono">Telefono</label> -->
+                    <input class="input" type="phone" id="telefono1" name="telefono1" placeholder="Telefono" required>
                     <br><br>
-                    <label for="email">Email</label>
-                    <input class="inputcontacto" type="email" id="email1" name="email1"  required>
+                    <!-- <label for="email">Email</label> -->
+                    <input class="input" type="email" id="email1" name="email1" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
                     <br><br>
-                    <label for="comentarios">Escribe tus comentarios</label>
+                   <!--  <label for="comentarios">Escribe tus comentarios</label> -->
                     <br>
-                    <textarea class="comentarios" type="text" id="comentarios1" name="comentarios1"  required></textarea>
+                    <textarea class="input2" type="text" id="comentarios1" name="comentarios1" placeholder="Comentarios adicionales" ></textarea>
                     <br><br>
                     <button onclick="clickform()" type="button" class="siguiente">Solicitar Contacto</button>
         
@@ -63,9 +69,8 @@
         
             <script src="../js/contacto.js"></script>
             <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.all.min.js"></script>
-           
-        </body>
-        </html>
+        </main>  
+
 
                 <footer>
                     <div class="footer">

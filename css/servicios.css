@@ -17,7 +17,6 @@
     /* --base-font: 'Abhaya Libre', serif;
     --alternative-font: 'Montserrat', sans-serif; */
     
-    --font-H1: 6.4em;
     --font-H2: 3.8em;
     --font-H3: 3.6em;
     --font-bodylarge: 2.4em;
@@ -30,7 +29,6 @@
     --spacing-68: 6.8rem;
     --spacing-36: 3.6rem;
     --spacing-28: 2.8rem;
-    --spacing-16: 1.6rem;
     --spacing-12: 1.2rem;
     --spacing-8: 0.8rem; 
 }
@@ -55,7 +53,7 @@ html{
 
 .container {
     position: absolute;
-    top: 50px;
+    top: 150px;
     max-width: 1240px;
     justify-content: center;
     align-items: center;
@@ -129,10 +127,10 @@ html{
     margin: 4px;
 }
 
-body {
+/* body {
     background: #f0c0a999;
     overflow-x: hidden;
-}
+} */
 
 header {
     /* background-image:url(./Group\ 1.jpg);
@@ -146,13 +144,6 @@ header {
 }
 
 
-h1 {
-    position: absolute;
-    top: 150px;
-    left: 500px;
-    text-align: center;
-    color: black;
-}
 
 .logo-image {
     width: 125px;
@@ -192,17 +183,13 @@ h1 {
 .menu {
     
     display:flex;
-    margin: -50px;
+    margin: -30px;
     padding-left: 50px;
     /* border: solid 2px red; */
     align-items: center;
    /*  justify-content:center; */
 }
 
- main  {
-    position: absolute;
-    top: 150px;
-} 
 
 footer {
     
@@ -327,3 +314,63 @@ font-size: 48px;
         border-radius: 12px;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
+
+.contenedor{
+    margin-top: 2%;
+    margin-left: 2%;
+  }
+  main  {
+    position: absolute;
+    top: 200px;
+    height: 200px;
+    width: 1200px;
+} 
+
+
+  .titulo-formulario {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -5%;
+    height: 200px;
+    width: 1200px;
+    flex:1;
+    margin-right: 30px;
+    position: absolute;
+  }
+  
+  .titulo{
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57px;
+    color: #000000;
+    font-size: 48px;
+    border-left:solid 1.5px yellow;
+  }
+
+  .subtitulo{
+    font-family: 'Montserrat';
+    font-style: normal;
+    position: absolute;
+    top: 55%;
+    left: 5%;
+    font-weight: 400;
+    font-size: 25px;
+    color: rgba(17, 39, 52, 0.7);
+    border-left:solid 1.5px yellow;
+
+  }
+
+
+  h1 {
+    
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    color: black;
+    height: 200px;
+    width: 1200px;
+} 
+
+

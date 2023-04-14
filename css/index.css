@@ -73,7 +73,7 @@ header {
 }
 
 
-img {
+.img1 {
     padding: 15px;
     position: relative;
     right: 40px;
@@ -86,15 +86,23 @@ h3{
     
 
 }
-.menu {
-    
+.contenedor{
+    position: absolute;
+    top: 10px;
+    margin-top: 2%;
+    margin-left: 2%;
+  }
+  
+  .menu {
+      
     display:flex;
-    margin: -50px;
+    margin: -30px;
     padding-left: 50px;
     /* border: solid 2px red; */
     align-items: center;
    /*  justify-content:center; */
-}
+  }
+
 
 .menu li {
 
@@ -598,6 +606,7 @@ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     top: 2930px;
     font-family: monospace;
     font-size: large;
+    text-align: center;
 
 }
 
@@ -627,6 +636,7 @@ border-radius: 50%;
     top: 2930px;
     font-family: monospace;
     font-size: large;
+    text-align: center;
 }
 
 
@@ -665,6 +675,7 @@ border-radius: 50%;
     top: 2930px;
     font-family: monospace;
     font-size: large;
+    text-align: center;
 }
 
 
@@ -692,6 +703,7 @@ border-radius: 50%;
     top: 2930px;
     font-family: monospace;
     font-size: large;
+    text-align: center;
 }
 
 .img-fernando {
@@ -719,6 +731,7 @@ border-radius: 50%;
     top: 2930px;
     font-family: monospace;
     font-size: large;
+    text-align: center;
 }
 
 .texto10 {
