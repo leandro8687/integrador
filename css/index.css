@@ -280,9 +280,9 @@ p {
 .parrafo1 {
     position: absolute;
     width: 532px;
-    height: 75px;
+    height: 100px;
     left: 600px;
-    top: 1750px;
+    top: 1730px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -298,7 +298,7 @@ p {
     position: absolute;
     left: 600px;
     top: 1900px;
-    width: 554px;
+    width: 570px;
     height: 459px;
     background: #FFFFFF;
     border-radius: 15px 15px 15px 0px;
@@ -320,7 +320,7 @@ p {
     position: absolute;
     width: 44px;
     height: 44px;
-    left: -5px;
+    left: 5px;
     top: 290px;
 }
 
@@ -360,7 +360,7 @@ color: rgba(17, 39, 52, 0.7);
 
 .img-3 {
     position: absolute;
-left: -5px;
+left: 5px;
 right: 32.67%;
 top: 390px;
 bottom: 18.52%;
